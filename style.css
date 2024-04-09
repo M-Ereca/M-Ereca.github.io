@@ -1,3 +1,174 @@
-h1{
-    color: red;
-}
+html, body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    background: rgb(120, 197, 248);
+    justify-content: space-around;
+ }  
+ 
+ .logo{ 
+    display: flex;
+    justify-content: start;
+ }
+ .link-taskbar
+ {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+ }
+ 
+ .button{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .button.primary{
+    background: #8005F2;
+    color: white;
+    border: 2px solid #8005F2;
+ 
+ }
+ 
+ .button.secondary{
+    background: white;
+    color: #8005F2;
+    border: 2px solid #8005F2;
+ }
+ 
+ .button.primary:hover{
+    background: #a554f1;
+ }
+ 
+ .button.secondary:hover{
+    background: white;
+    color: #a554f1;
+    border: 2px solid #a554f1;
+ }
+ /*
+ .primary:hover,.secondary:hover{
+  
+ }
+ */
+ 
+ #shoes-contenaire{
+    display: flex;
+    gap: 16px;
+ }
+ 
+ .avatar{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: black solid 3px;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .link:hover{
+    color: #a554f1;
+ }
+ 
+ ul{
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+    gap: 16px;
+ }
+ .link-taskbar a{
+    text-decoration: none;
+ }
+ h1{
+    display: flex;
+    justify-content: center;
+ 
+ }
+ #navbar div a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+ }
+ .logo{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+ }
+ .shoes img{
+    width: 100%;
+    height: auto;
+    display: flex;
+ 
+ }
+ .prix{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 280px;
+    padding: 0 10px;
+    height: 50px;
+ }
+ .description{
+ text-align: start;
+ background: aliceblue;
+ }
+ 
+ p{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+ } 
+ .shoes{
+    width: 20%;
+    border-radius: 16px;
+    overflow: hidden;
+ }
+ 
+ 
+ .avatar-container{
+    align-items: center;
+    display: flex;
+    gap: 16px;
+ }
+ 
+ .description a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    ba
+ }
+ 
+ body{
+    background-color: bisque;
+    flex-direction: column;
+ }
+ #shoes-contenaire{
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+ }
+ footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 50px;
+ 
+ }
